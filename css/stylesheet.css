@@ -1,0 +1,187 @@
+*       { margin: 0; padding: 0; }
+body, html { width: 100%; height: 100%;}
+
+.hero{
+  width: 100%;
+  height: 28vw;
+  overflow: hidden;
+  display: flex;
+  background: conic-gradient(from -.4turn at bottom right, deeppink, cyan, rebeccapurple);
+  border-radius: 35px;
+  letter-spacing: 8px;
+  font-family: cursive;
+  color: #FFF;
+}
+
+.hero .hero-text {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+   }
+   
+   .hero .hero-text h1 {
+    padding-top: 200px;
+   }
+
+   .hero .hero-text p {
+    padding-top: 200px;
+   }
+
+aside { display: flex; flex-direction: row; justify-content: space-evenly;}
+
+.hex-background {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  margin-top: 20px;
+  width: 380px;
+  height: 320px; 
+  clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.hex img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.hex-2 img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: fill;
+  opacity: 0.4;
+}
+
+.hex-3 img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: fill;
+  opacity: 0.4;
+}
+
+.text-overlay1 {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  text-align: center;
+  text-decoration: wavy overline lime;
+  font-family: cursive;
+}
+
+.text-overlay2 {
+  position: absolute;
+  top: 110px;
+  left: 100px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.text-overlay3 {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  text-align: center;
+  text-decoration: wavy overline lime;
+  font-family: cursive;
+}
+
+.text-overlay4 {
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  text-align: center;
+  line-height: 40px;
+}
+
+a:link     { color: black; font-weight: normal; text-decoration: none; }
+a:visited  { color: black; font-weight: normal; text-decoration: none; }
+a:hover    { background-size: 0 3px, 100% 3px; }
+a:active   { color: black; font-weight: normal; text-decoration: none; }
+
+.skills {
+  margin-top: 100px;
+  width: 400px;
+  height: 250px;
+  border-radius: 25px;
+  background: conic-gradient(from -.4turn at bottom right, deeppink, cyan, rebeccapurple);
+}
+
+.skills h3 {
+padding-top: 20px;
+  text-align: center;
+  text-decoration: overline wavy lime;
+  font-family: cursive;
+  letter-spacing: 5px;
+}
+
+.skills p {
+  text-align: left;
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.profile {
+  margin-top: 40px;
+  width: 65%;
+  height: 370px;
+  border-radius: 25px;
+  background: conic-gradient(from -.4turn at bottom right, deeppink, cyan, rebeccapurple);
+}
+.profile h3 {
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: wavy overline lime;
+  font-family: cursive;
+  letter-spacing: 5px;
+}
+    
+.profile p {
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+section { display: flex; flex-direction: row; justify-content: space-evenly;}
+
+@keyframes BackgroundColorChange { 0% {background: #ee6055;} 50% {background: cadetblue;} 100% {background: seagreen;} }
+
+main {
+  margin: auto;
+  margin-top: 30px;
+  border-style: dashed;
+  border-color: cadetblue;
+  border-width: 5px;
+  border-radius: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: BackgroundColorChange 5s infinite alternate linear; width: 100%; height: 100%;
+}
+
+main .info {
+border-radius: 25%;
+border-color: black;
+}
+
+.experience1 {
+  text-align: center;
+  font-family: cursive;
+  text-decoration: wavy overline lime;
+}
+
+.experience2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a { color: inherit; text-decoration: none; }
+
+a {
+  background: linear-gradient(to right, rgb(0, 255, 0), rgb(0, 255, 0) ), linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1) );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
